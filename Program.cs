@@ -15,17 +15,10 @@
     {
         public static Person GetOldestPerson(Person[] people)
         {
-            Person oldestPerson = null;
-            foreach (Person person in people)
-            {
-                if(person != null && (oldestPerson == null || person.Age > oldestPerson.Age))
-                {
-                    oldestPerson = person;
-                }
-            }
-            return oldestPerson;
+            return ;
         }
     }
+     
     class Program
     {
         static void Main()
